@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/mondrianwifi
+LOCAL_PATH := device/samsung/mondrianlte
 
 TARGET_BOARD_PLATFORM := msm8974
-TARGET_BOOTLOADER_BOARD_NAME := mondrianwifi
+TARGET_BOOTLOADER_BOARD_NAME := mondrianlte
 
 # Architecture
 TARGET_ARCH := arm
@@ -43,7 +43,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_HAS_DOWNLOAD_MODE := true
 TW_NO_REBOOT_BOOTLOADER := true
 include $(LOCAL_PATH)/kernel.mk
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/mondrianwifi/seEnforcing.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/mondrianlte/seEnforcing.mk
 LZMA_RAMDISK_TARGETS := boot,recovery
 
 # TWRP

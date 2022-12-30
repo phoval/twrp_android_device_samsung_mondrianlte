@@ -15,8 +15,8 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-PRODUCT_DEVICE := mondrianwifi
-PRODUCT_NAME := omni_mondrianwifi
+PRODUCT_DEVICE := mondrianlte
+PRODUCT_NAME := omni_mondrianlte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T320
+PRODUCT_MODEL := SM-T325
 PRODUCT_MANUFACTURER := samsung

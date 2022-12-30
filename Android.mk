@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter mondrianwifi,$(TARGET_DEVICE)),)
+ifneq ($(filter mondrianlte,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/samsung/mondrianwifi/
+LOCAL_PATH := device/samsung/mondrianlte/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/mondrianwifi/
+LOCAL_PATH := device/samsung/mondrianlte/
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_mondrianwifi.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_mondrianlte.mk
